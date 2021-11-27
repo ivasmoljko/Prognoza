@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("searchicon.jpg");
+  background-position: 7% 50%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 20px 40px;
+  border: solid black;
+  position: relative;
+  align-items: center;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="text"]:hover {
+  background-color: #eeeeee;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-left: 100px;
+  align-items: center;
+}
+.container {
+  outline: none;
+}
+
+#myButton {
+  cursor: pointer;
+  background-color: palegreen;
+  border: none;
+  color: white;
+  height: 50px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  position: relative;
+  margin-left: 10px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 100px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 12px;
+  background-color: white;
+  color: black;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+#icon {
+  height: 100;
+  margin-left: 500px;
+  border: none;
+  outline: none;
+}
+
+.smallicon {
+  height: 2rem;
+  text-align: left;
+}
